@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "hello world",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
