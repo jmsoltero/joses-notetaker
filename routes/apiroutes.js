@@ -66,7 +66,7 @@ router.delete('/api/notes/:id', (req, res) => {
             return res.status(500).send('Internal Server Error');
         }
 
-        return res.send('Note deleted succesfullly')
+        return res.json(notes)
         });
     });
 });
