@@ -3,7 +3,7 @@ const noteStuff = require('./routes/apiroutes')
 const express = require('express');
 const app = express();
 const path = require('path');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const api = require('./routes/apiroutes')
 const fs = require('fs')
 
